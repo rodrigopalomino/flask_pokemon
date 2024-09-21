@@ -1,0 +1,80 @@
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+.Python
+
+# Archivos compilados por Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de caché y log
+*.log
+*.pot
+*.pyc
+
+# Distribución / paquetes
+build/
+dist/
+*.egg-info/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+*.egg
+.installed.cfg
+*.egg-info/
+pip-wheel-metadata/
+
+# Archivos de configuración específicos de IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos generados por herramientas de testing
+.coverage
+.tox/
+.nox/
+
+# Archivos de caché de pytest
+.pytest_cache/
+
+# Archivos de configuración de Docker (si usas Docker)
+docker-compose.override.yml
+.dockerignore
+
+# Variables de entorno y configuración local
+.env
+.env.*
+
+# Módulos creados con Cython
+*.so
+*.pyd
+
+# Módulos generados con Jupyter
+.ipynb_checkpoints/
+
+# Archivos creados por sistemas de integración continua
+/.github/
+.circleci/
+.gitlab-ci.yml
+
+# Archivos de bloqueo y dependencias
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Documentación
+*.pdf
+*.html
+*.rst
+docs/_build/
+
+gif/
+img/
